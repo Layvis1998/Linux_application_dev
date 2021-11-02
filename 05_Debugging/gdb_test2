@@ -1,7 +1,7 @@
 set pagination off
 set $var = 0
 
-break range.c:33 if ($var++ >= 27 && $var <= 35)
+break range.c:36 if ($var++ >= 27 && $var <= 35)
     command 1
     echo @@@
     printf "%d, %d, %d, %d\n", start, end, step, i
